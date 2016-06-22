@@ -55,7 +55,7 @@ namespace WallHavenScraper
             }
         }
 
-        public static string _loadHtmlContent(string urlAddress)
+        private static string _loadHtmlContent(string urlAddress)
         {
             string data = "";
 
